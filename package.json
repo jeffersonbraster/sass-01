@@ -1,0 +1,14 @@
+{
+  "name": "css-project-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "yarn node-sass sass/main.scss css/style.css -watch -usePolling",
+    "sass:on": "sass --watch sass/main.scss css/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.38.0"
+  }
+}
